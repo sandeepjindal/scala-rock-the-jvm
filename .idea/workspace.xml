@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60cde958-dc84-449a-a83f-4f84b85f7893" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Scala Worksheet" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1RFA3U2oT2aOuZNu68ErbICy5nB" />
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/sjindal/codebase/monix/build.sbt" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539948264994" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala/tuts" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala/tuts" />
+      <recent name="$PROJECT_DIR$/src/main/scala" />
+      <recent name="$PROJECT_DIR$/src/main/universal/conf" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala/tuts" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Expressions (1)">
+    <configuration name="Expressions (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="rockthejvm.IIExpressions" />
+      <module name="monix" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rockthejvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Expressions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkaessential.Expressions" />
+      <module name="monix" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="akkaessential.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Futures1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="monix.Futures1" />
+      <module name="monix" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="monix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneralRecap" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akkaessential.GeneralRecap" />
+      <module name="monix" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="akkaessential.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScalaFuturesAndExceptions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="forcomphrehension.ScalaFuturesAndExceptions" />
+      <module name="monix" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="forcomphrehension.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ScalaFuturesAndExceptions" />
+      <item itemvalue="Application.Futures1" />
+      <item itemvalue="Application.GeneralRecap" />
+      <item itemvalue="Application.Expressions" />
+      <item itemvalue="Application.Expressions (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Expressions (1)" />
+        <item itemvalue="Application.Expressions" />
+        <item itemvalue="Application.GeneralRecap" />
+        <item itemvalue="Application.Futures1" />
+        <item itemvalue="Application.ScalaFuturesAndExceptions" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="monix" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="monix" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="monix-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3071646893000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="4023614755" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="719916435" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../chargeback-api" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../general-fraud-detection" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../play-circe" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../swipe-api" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../swipe-api-notification" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60cde958-dc84-449a-a83f-4f84b85f7893" name="Default" comment="" />
+      <created>1535527864251</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535527864251</updated>
+      <workItem from="1535527867535" duration="3449000" />
+      <workItem from="1535601618238" duration="132000" />
+      <workItem from="1535612013527" duration="13331000" />
+      <workItem from="1535634464036" duration="1911000" />
+      <workItem from="1535686118477" duration="3321000" />
+      <workItem from="1536117971403" duration="2396000" />
+      <workItem from="1536132590032" duration="267000" />
+      <workItem from="1537939470120" duration="5677000" />
+      <workItem from="1539759001735" duration="1936000" />
+      <workItem from="1539834995149" duration="14000" />
+      <workItem from="1539941835623" duration="1889000" />
+      <workItem from="1540188863719" duration="620000" />
+      <workItem from="1540191358143" duration="766000" />
+      <workItem from="1540194363404" duration="1186000" />
+      <workItem from="1541475736638" duration="420000" />
+      <workItem from="1541512449171" duration="496000" />
+      <workItem from="1541566204382" duration="1130000" />
+      <workItem from="1569252272989" duration="404000" />
+      <workItem from="1569300230603" duration="414000" />
+      <workItem from="1569495638326" duration="2721000" />
+      <workItem from="1569557120494" duration="599000" />
+      <workItem from="1569579847267" duration="3323000" />
+      <workItem from="1569926904246" duration="2894000" />
+      <workItem from="1569993145656" duration="8000" />
+      <workItem from="1570101639569" duration="1534000" />
+      <workItem from="1570125164520" duration="492000" />
+      <workItem from="1570445657907" duration="2673000" />
+      <workItem from="1570532510579" duration="1757000" />
+      <workItem from="1570791414137" duration="4533000" />
+      <workItem from="1576060882997" duration="595000" />
+      <workItem from="1576125997425" duration="1546000" />
+      <workItem from="1578561707574" duration="974000" />
+      <workItem from="1578639663189" duration="661000" />
+      <workItem from="1578646317320" duration="1287000" />
+      <workItem from="1578898236974" duration="1451000" />
+      <workItem from="1580372342392" duration="3367000" />
+      <workItem from="1580443304494" duration="2002000" />
+      <workItem from="1580548661824" duration="629000" />
+      <workItem from="1580899358617" duration="3373000" />
+      <workItem from="1580919483189" duration="156000" />
+      <workItem from="1580961503358" duration="598000" />
+      <workItem from="1584754409045" duration="701000" />
+      <workItem from="1584845335197" duration="226000" />
+      <workItem from="1585460753299" duration="869000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/playws/PlayWSClient2.scala</url>
+          <line>30</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/basics/RetryCode.scala</url>
+          <line>27</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/basics/RetryCode.scala</url>
+          <line>29</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/designpatterns/factory/AnimalFactory.scala</url>
+          <line>24</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/forcomphrehension/ScalaFuturesAndExceptions.scala</url>
+          <line>10</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/forcomphrehension/ScalaFuturesAndExceptions.scala</url>
+          <line>15</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/forcomphrehension/ScalaFuturesAndExceptions.scala</url>
+          <line>18</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/forcomphrehension/ScalaFuturesAndExceptions.scala</url>
+          <line>22</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/forcomphrehension/ScalaFuturesAndExceptions.scala</url>
+          <line>20</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/forcomphrehension/ScalaFuturesAndExceptions.scala</url>
+          <line>19</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>logger</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ConfigFactory.load()</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,70 @@
+<!-- https://www.playframework.com/documentation/latest/SettingsLogger -->
+<configuration>
+
+    <property scope="context" name="APP_NAME" value="monix" />
+    <property scope="context" name="api-key" value="monix-CQ" />
+
+    <statusListener class="ch.qos.logback.core.status.NopStatusListener"/>
+    <conversionRule conversionWord="coloredLevel" converterClass="play.api.libs.logback.ColoredLevel"/>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>/var/log/monix/api.log</file>
+        <append>true</append>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <fileNamePattern>/var/log/monix/api.log.%i</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>3</maxIndex>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>128MB</maxFileSize>
+        </triggeringPolicy>
+        <encoder>
+            <pattern>%date [%level] from %logger in %thread - %message%n%xException</pattern>
+        </encoder>
+    </appender>
+    <appender name="ASYNCFILE" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="FILE"/>
+    </appender>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%level %logger{15} - %message%n%xException{10}</pattern>
+        </encoder>
+    </appender>
+    <appender name="ASYNCSTDOUT" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="STDOUT"/>
+    </appender>
+
+    <appender name="ADP" class="com.agoda.adp.messaging.logging.appenders.LogbackAppender">
+        <applicationName>${appName}</applicationName>
+        <applicationAssemblyName>${appName}-${version}</applicationAssemblyName>
+        <applicationVersion>${version}</applicationVersion>
+        <apiKey>${api-key}</apiKey>
+        <getCallerData>false</getCallerData>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+    </appender>
+    <appender name="ASYNCADP" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="ADP"/>
+    </appender>
+
+    <logger name="play" level="DEBUG"/>
+    <logger name="akka.actor" level="INFO"/>
+    <logger name="slick.jdbc" level="DEBUG"/>
+    <logger name="filters.WhiteFalconFilter" level="INFO"/>
+    <logger name="com.agoda.ccm.redaction" level="INFO"/>
+    <logger name="scala.services.MessageCompleteService" level="INFO"/>
+
+    <!-- Off these ones as they are annoying, and anyway we manage configuration ourselves -->
+    <logger name="com.avaje.ebean.config.PropertyMapLoader" level="OFF"/>
+    <logger name="com.avaje.ebeaninternal.server.core.XmlConfigLoader" level="OFF"/>
+    <logger name="com.avaje.ebeaninternal.server.lib.BackgroundThread" level="OFF"/>
+    <logger name="com.gargoylesoftware.htmlunit.javascript" level="OFF"/>
+
+    <root level="INFO">
+        <appender-ref ref="ASYNCSTDOUT"/>
+        <appender-ref ref="ASYNCFILE"/>
+        <appender-ref ref="ASYNCADP"/>
+    </root>
+</configuration>
