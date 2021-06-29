@@ -1,10 +1,12 @@
 package rockthejvm
 
-object ValuesVariablesTypes {
+object ValuesVariablesTypes extends App {
 
-  val x: Int = 42
+  val x = 42
 
-  // var x = 42 // side effects
+   var x1 = 42 // side effects
+
+  x1 = 23
 
   // val x:Int = "a"
 
@@ -23,5 +25,9 @@ object ValuesVariablesTypes {
   val f:Float = 2.0f
 
   val d:Double = 3.14
+
+  println(b)
+  println(l)
+
 
 }
