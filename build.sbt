@@ -9,6 +9,8 @@ scalaVersion := "2.12.6"
 
 val scalaLogging = "3.5.0"
 
+val scalaTestVersion = "3.2.2"
+
 
 
 libraryDependencies += "io.monix" %% "monix" % "2.3.3"
@@ -20,4 +22,9 @@ libraryDependencies += "com.typesafe.play" %% "play-ws" % "2.7.0-M3"
 
 libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging" % scalaLogging
 libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.1.2"
+
+libraryDependencies += "org.scalactic" %% "scalactic" % scalaTestVersion
+libraryDependencies += "org.scalatest" %% "scalatest" % scalaTestVersion % Test
+
+
 
